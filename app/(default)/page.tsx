@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Simple",
-  description: "Page description",
+  title: "Hikari | Soluciones Tecnológicas Innovadoras en Desarrollo Web y Aplicaciones Móviles",
+  description: "En Hikari, transformamos ideas en soluciones digitales. Expertos en desarrollo web y aplicaciones móviles, ofrecemos claridad, enfoque y tecnología moderna para impulsar tu negocio.",
 };
 
 import Hero from "@/components/hero-home";
