@@ -38,7 +38,8 @@ export default function HeroHome() {
                 >
                   <a
                     className="btn text-lg rounded-2xl group mb-4 w-full bg-gradient-to-t from-primary-600 to-primary-500 bg-[length:100%_100%] bg-[bottom] text-white shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto font-bold"
-                    href="#0"
+                    href="https://calendar.app.google/8ys73PGCu3j3UBPeA"
+                    target="_blank"
                   >
                     <span className="relative inline-flex items-center">
                       Solicita tu cotización gratis
