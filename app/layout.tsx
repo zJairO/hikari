@@ -1,10 +1,22 @@
 import "./css/style.css";
 
-import { Inter } from "next/font/google";
+import { Inter, Geologica, Montserrat } from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
+
+const geologica = Geologica({
+  subsets: ["latin"],
+  variable: "--font-geologica",
   display: "swap",
 });
 
@@ -21,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${inter.variable} bg-white-50 font-montserrat tracking-tight text-gray-900 antialiased`}
+        className={`${montserrat.variable} bg-white-50 font-montserrat tracking-tight text-gray-900 antialiased`}
       >
         <div className="flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
